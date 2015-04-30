@@ -34,4 +34,9 @@ router.post('/invite', function(req, res) {
   }
 });
 
+router.get('/robots.txt', function (req, res) {
+  res.set('Content-Type', 'text/plain')
+  res.send('User-agent: *\nDisallow: /')
+})
+
 module.exports = router;
