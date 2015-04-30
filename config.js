@@ -1,8 +1,8 @@
 module.exports = {
   // your cummunity or team name to display on join page.
-  community: process.env.COMMUNITY_NAME || 'YOUR-TEAM-NAME',
+  community: process.env.COMMUNITY_NAME || 'TucsonJS',
   // your slack team url (ex: socketio.slack.com)
-  slackUrl: process.env.SLACK_URL || 'YOUR-TEAM.slack.com',
+  slackUrl: process.env.SLACK_URL || 'tucsonjs.slack.com',
   // access token of slack
   // You can generate it in https://api.slack.com/web#auth
   //
